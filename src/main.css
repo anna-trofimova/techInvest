@@ -19,7 +19,7 @@ h1 {
 
 .nav ul {
   display: flex;
-  justify-content: flex-end
+  justify-content: space-around;
 }
 
 .nav ul li {
@@ -39,12 +39,23 @@ h1 {
 
 /*------------pages----------*/
 
-.prolog {
+.onas {
   margin: 0;
   display: grid;
   justify-items: center;
   color: rgb(20, 79, 204);
   text-shadow: 2px 2px 0px #1b141433;
+}
+
+.onas h4 {
+
+}
+
+.onas p {
+  padding-left: 20px;
+  padding-right: 20px;
+  margin: 0;
+  text-shadow: none;
 }
 
 .whatwedo {
