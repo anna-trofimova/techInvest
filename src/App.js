@@ -1,25 +1,30 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, {Component} from 'react';
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+
+// import './App.css';
+
+import Navbar from './componets/Navbar'
+import Onas from './pages/Onas'
+import Projects from './pages/Projects'
+import Uslugi from './pages/Uslugi'
+import Contacts from './pages/Contacts'
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router>
+  <Navbar />
+      <div className="container">
+        <Switch>
+          <Route path="/onas" exact component={Onas} />
+          <Route path="/projects" exact component={Projects} />
+          <Route path="/uslugi" exact component={Uslugi} />
+          <Route path="/contacts" exact component={Contacts} />
+
+        </Switch>
+      </div>
+
+  </Router>
+
   );
 }
 

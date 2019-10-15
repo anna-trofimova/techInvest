@@ -1,0 +1,70 @@
+h1 {
+  margin: 0;
+}
+
+
+
+.nav {
+  background-image: url('./images/image19.png');
+  background-position: center;
+  background-size: cover;
+}
+
+.nav h1 {
+  color:white;
+  display: flex;
+  justify-content: center;
+  text-shadow: 2px 2px 0px #f8f0f05e;
+}
+
+.nav ul {
+  display: flex;
+  justify-content: flex-end
+}
+
+.nav ul li {
+  padding: 10px;
+  list-style: none;
+}
+ .nav ul li a {
+   text-decoration-line: none;
+   color:white;
+   
+ }
+
+
+.lol {
+  font-size: 17px;
+}
+
+/*------------pages----------*/
+
+.prolog {
+  margin: 0;
+  display: grid;
+  justify-items: center;
+  color: rgb(20, 79, 204);
+  text-shadow: 2px 2px 0px #1b141433;
+}
+
+.whatwedo {
+  display: grid;
+  justify-items: center;
+}
+
+.whatwedo h3 {
+  color: rgb(20, 79, 204);
+  text-shadow: 2px 2px 0px #1b141433;
+}
+
+.legal {
+  text-align: center;
+  color: rgb(20, 79, 204);
+  text-shadow: 2px 2px 0px #1b141433;
+
+}
+
+.legal img {
+  margin: 10px;
+  border: 20px solid #f1dbbb42;
+}
