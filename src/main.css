@@ -8,6 +8,7 @@ h1 {
   background-image: url('./images/image19.png');
   background-position: center;
   background-size: cover;
+  height: 100px;
 }
 
 .nav h1 {
@@ -15,15 +16,17 @@ h1 {
   display: flex;
   justify-content: center;
   text-shadow: 2px 2px 0px #f8f0f05e;
+  padding-top: 10px;
 }
 
 .nav ul {
   display: flex;
   justify-content: space-around;
+  padding: 12px;
 }
 
 .nav ul li {
-  padding: 10px;
+  padding: 3px;
   list-style: none;
 }
  .nav ul li a {
@@ -43,7 +46,8 @@ h1 {
   margin: 0;
   display: grid;
   justify-items: center;
-  color: rgb(20, 79, 204);
+  /*color: rgb(20, 79, 204);*/
+  color:rgb(50, 107, 228);
   text-shadow: 2px 2px 0px #1b141433;
 }
 
@@ -64,13 +68,13 @@ h1 {
 }
 
 .whatwedo h3 {
-  color: rgb(20, 79, 204);
+  color: rgb(50, 107, 228);
   text-shadow: 2px 2px 0px #1b141433;
 }
 
 .legal {
   text-align: center;
-  color: rgb(20, 79, 204);
+  color: rgb(50, 107, 228);
   text-shadow: 2px 2px 0px #1b141433;
 
 }
@@ -87,42 +91,109 @@ h1 {
  
 .uslugi h1 {
   text-align: center;
+  color:rgb(50, 107, 228);
+  text-shadow: 2px 2px 0px #1b141433;
+  margin-top: 10px;
 
 }
 
-.uslugi p {
 
-}
 
 .projectsList {
+  display: flex;
 
 }
-.projectsList.Collapsible {
-  color: aqua
+
+.line1 {
+  border: 1px solid rgba(20, 79, 204, 0.35);
+  border-radius: 4px;
+  border-style: dotted;
+  padding: 40px;
+  margin: 10px;
+  margin-left: 23px;
+  transition: 0.9s;
 }
+
+.line1:hover {
+  background-color: #3c70e352
+
+
+}
+
+.line2 {
+  border: 1px solid rgba(20, 79, 204, 0.35);
+  border-radius: 4px;
+  border-style: dotted;
+  padding: 40px;
+  margin: 10px;
+  margin-left: 23px;
+  transition: 0.9s;
+}
+
+.line2:hover {
+  background-color: #3c70e352
+
+
+}
+
+.line3 {
+  border: 1px solid rgba(20, 79, 204, 0.35);
+  border-radius: 4px;
+  border-style: dotted;
+  padding: 40px;
+  margin: 10px;
+  margin-left: 23px;
+  margin-right: 25px;
+  transition: 0.9s;
+}
+
+.line3:hover {
+  background-color: #3c70e352;
+}
+
 /*------------------components-------------*/
 
 .project1{
-
+  background-color: aliceblue;
+  padding-left: 10px;
+  border-radius: 10px;
+  margin: 10px;
+  color: rgb(50, 107, 228);
+  
 }
 
 .list1 {
-
+  color: black;
+  list-style: circle;
 }
+
+/* .collapse-css-transition {
+  transition: height 300ms cubic-bezier(0.4, 0, 0.2, 1);
+  overflow: hidden;
+} */
 
 
 .project2 {
-
+  background-color: aliceblue;
+  padding-left: 10px;
+  border-radius: 10px;
+  margin: 10px;
 }
 
 .list2 {
-
+  color: black;
+  list-style: circle;
 }
 
 .project3 {
-
+  background-color: aliceblue;
+  padding-left: 10px;
+  border-radius: 10px;
+  margin: 10px;
 }
 
 .list3 {
-
+  color: black;
+  list-style: circle;
 }
+

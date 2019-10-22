@@ -11,9 +11,9 @@ export default class Uslugi extends Component {
       <div className='uslugi'> 
         <h1>Услуги</h1>
         <div className='projectsList'>
-          <Collapsible trigger='Проектные работы'> <Project1/> </Collapsible> 
-          <Collapsible trigger='Комплексные инженерные изыскания'> <Project2/> </Collapsible>
-          <Collapsible trigger='Инжиниринговые услуги'> <Project3/> </Collapsible>
+          <Collapsible className='line1' trigger='Проектные работы'> <Project1/> </Collapsible> 
+          <Collapsible className='line2' trigger='Комплексные инженерные изыскания'> <Project2/> </Collapsible>
+          <Collapsible className='line3' trigger='Инжиниринговые услуги'> <Project3/> </Collapsible>
         </div>
       </div>
     )
