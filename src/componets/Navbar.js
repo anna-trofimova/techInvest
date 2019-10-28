@@ -5,6 +5,7 @@ export default class Navbar extends Component {
   render() {
     return (
       <div className='nav'>
+        <h1>«ВЕГЛАС ИНЖИНИРИНГ»</h1>
         <ul>
           <li><Link to='/'>О нас</Link></li>
           <li><Link to='/projects'>Наши проекты</Link></li>

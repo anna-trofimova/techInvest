@@ -7,7 +7,6 @@ export default class Onas extends Component {
       <>
      <div className='onas'>
         <h1>О нас</h1>
-        <h2>«ВЕГЛАС ИНЖИНИРИНГ»</h2>
         <h4>Основной вид деятельности - промышленное и гражданское проектирование</h4>
      </div>
 
