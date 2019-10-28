@@ -6,7 +6,7 @@ export default class Navbar extends Component {
     return (
       <div className='nav'>
         <ul>
-          <li><Link to='/onas'>О нас</Link></li>
+          <li><Link to='/'>О нас</Link></li>
           <li><Link to='/projects'>Наши проекты</Link></li>
           <li><Link to='/uslugi'>Услуги</Link></li>
           <li><Link to='contacts'>Контакты</Link></li>
