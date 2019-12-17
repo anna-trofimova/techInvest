@@ -8,7 +8,7 @@ export default function Contacts() {
         <h4>Адрес:</h4>
         <address>
           <p>г. Москва </p>
-          <p>107014, Большая Остроумовская, д.12</p>
+          <p>Большой Толмачевский пер., дом 5, стр. 5</p>
         </address>
       </article>
       <article>

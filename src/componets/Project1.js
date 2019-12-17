@@ -3,7 +3,7 @@ import React from 'react'
 export default function Project1() {
   return (
     <div className='project1'>
-      <h4>ЗАО «Веглас Инжиринг» выполняет следующие виды проектных работ:</h4>
+      <h4>ЗАО «Веглас Инжиринг» выполняет следующие виды <span className='name1'>проектных работ:</span></h4>
       <ul className='list1'>
         <li>разработка обоснований инвестиций в строительство и реконструкцию;</li>
         <li>разработка проектной и рабочей документации;</li>

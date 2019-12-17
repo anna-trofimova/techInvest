@@ -78,7 +78,7 @@ h1 {
 
 .whatwedo h3 {
   text-decoration: none;
-  border-bottom: 3px solid #c93952;
+  border-bottom: 3px solid #467ae75e;
   color: #284654;
 }
 
@@ -90,7 +90,7 @@ h1 {
 
 .legal h3 {
   text-decoration: none;
-  border-bottom: 3px solid #c93952;
+  border-bottom: 3px solid #467ae75e;;
   color: #284654;
 }
 
@@ -178,6 +178,10 @@ h1 {
   list-style: circle;
 }
 
+.list1 li {
+  padding-bottom: 10px;
+}
+
 
 .project2 {
   background-color: aliceblue;
@@ -193,6 +197,11 @@ h1 {
   list-style: circle;
 }
 
+.list2 li {
+  padding-bottom: 10px;
+}
+
+
 .project3 {
   background-color: aliceblue;
   padding-left: 10px;
@@ -206,13 +215,31 @@ h1 {
   list-style: circle;
 }
 
+.list3 li {
+  padding-bottom: 10px;
+}
+
 .contacts {
   margin-left: 10px;
   text-align: center;
 }
 
 .contacts h1 {
-  color:rgb(50, 107, 228);
-  text-shadow: 2px 2px 0px #1b141433;
+  text-align: center;
+  text-decoration: none;
+  border-bottom: 2px solid #467ae75e;
+  color: #284654;
+  margin-top: 10px;
+}
+
+.name1 {
+  border-bottom: 2px solid #467ae75e;
+}
+
+.nashiproektj {
+  text-align: center;
+  text-decoration: none;
+  border-bottom: 2px solid #467ae75e;
+  color: #284654;
   margin-top: 10px;
 }
